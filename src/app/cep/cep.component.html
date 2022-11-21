@@ -1,0 +1,28 @@
+<div class="content">
+    <form #f="ngForm">
+        <div class="cep">
+            <input type="text" placeholder="Informe o CEP" id="cep" name="cep" [(ngModel)]="cep.cep" />
+
+            <button (click)="buscar(cep.cep, f)">BUSCAR</button>
+        </div>
+
+
+
+        <div class="field">
+            <label>Logradouro/Nome</label>
+            <input disabled type="textarea" rows="5" id="logradouro" placeholder="" name="logradouro" [(ngModel)]="cep.logradouro">
+        </div>
+        <div class="field">
+            <label>Bairo</label>
+            <input disabled type="text" id="bairro" placeholder="" name="bairro" [(ngModel)]="cep.bairro">
+        </div>
+        <div class="field">
+            <label>Localidade</label>
+            <input disabled type="text" id="localidade" placeholder="" name="localidade" [(ngModel)]="cep.localidade">
+        </div>
+        <div class="field">
+            <label>UF</label>
+            <input disabled type="text" id="uf" placeholder="" name="uf" [(ngModel)]="cep.uf">
+        </div>
+    </form>
+</div>
