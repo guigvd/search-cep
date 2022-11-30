@@ -1,4 +1,25 @@
-# BuscaCep
+<h1 align="center">Busca CEP</h1> 
+
+- Description:
+
+In this project, I consumed the ViaCEP API to fetch information about a specific zip code and used the Angular property ngModel to dynamically fill the form with data.
+
+- Objective:
+
+Study in practice.
+
+# Demonstration
+
+- See online at: https://guigvd.github.io/search-cep/
+
+![image](https://user-images.githubusercontent.com/100156111/204809154-e3405d7c-5105-4055-afee-4fcf7d86cf66.png)
+
+# Technologies
+
+- Angular
+- TypeScript
+
+#
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
